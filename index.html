@@ -11,23 +11,30 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
     <main class="container">
         <section class="Result-card">
-            <h1>Your Result</h1>
+                <h1 class="heading">Your Result</h1>
             <div class="score">
                 <h2> 76 </h2>
                 <p> of 100 </p>
             </div>
+            <div class="group">
             <h1 class="info-title">Great</h1>
-            <p> You scored higher than 65% of the people who have taken these tests. </p>
+            <div class="comment"> You scored higher than 65% of the people who have taken these tests. </div>
+            </div>
         </section>
         <section class="Result-summary">
-            <h2>Summary</h2>
-            <div class="score-summary">
-                <div class="reaction-score">
+            <div class="flex_right">
+                <h1 class="summary_heading">Summary</h1>
+            <div class="score-summary ">
+                <div class="reaction-score score_box">
                     <div class="left">
                        <img src="images/icon-reaction.svg" alt="reaction icon">
                        Reaction
@@ -37,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="memory-score">
+                <div class="memory-score score_box">
                     <div class="left">
                        <img src="images/icon-memory.svg" alt="memory icon">
                        Memory
@@ -47,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="verbal-score">
+                <div class="verbal-score score_box">
                     <div class="left">
                        <img src="images/icon-verbal.svg" alt="verbal icon">
                        Verbal
@@ -57,7 +64,7 @@
                     </div>
                 </div>
 
-                <div class="visual-score">
+                <div class="visual-score score_box">
                     <div class="left">
                        <img src="images/icon-visual.svg" alt="reaction icon">
                        Visual
@@ -68,6 +75,7 @@
                 </div>
 
                 <button><b>Continue</b></button>
+            </div>
 
             </div>
         </section>
